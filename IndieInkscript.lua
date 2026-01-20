@@ -1,3 +1,4 @@
+print("IndieInk v1.1 - Updated " .. os.date("%Y-%m-%d %H:%M"))  -- Check F9 console
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
@@ -38,3 +39,4 @@ local Window = Rayfield:CreateWindow({
 })
 
 local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
+
